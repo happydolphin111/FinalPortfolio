@@ -1,7 +1,6 @@
 
 import './App.css';
 import {useRef} from 'react';
-import { BrowserRouter as Router, Switch, Route, Redirect,} from "react-router-dom";
 import pic_iterative from './components/Images/iterative.png'
 import pic_responsive from './components/Images/responsive.png'
 import pic_personas from './components/Images/personas.png'
