@@ -1,10 +1,13 @@
 
 import './App.css';
 import {useRef} from 'react';
-import pic_iterative from './components/Images/iterative.png'
-import pic_responsive from './components/Images/responsive.png'
-import pic_personas from './components/Images/personas.png'
-import pic_heart from './components/Images/myHeart.png'
+import pic_iterative from './components/images/iterative.png'
+import pic_responsive from './components/images/responsive.png'
+import pic_personas from './components/images/personas.png'
+import pic_development from './components/images/development.png'
+import pic_brain from './components/images/brain.png'
+import pic_heart from './components/images/myHeart.png'
+import Personas from './components/Personas';
 
 
 function App() {
@@ -14,7 +17,7 @@ function App() {
   const ref2 = useRef(null);
 
   const handleClickScrollProjects = () => {
-    ref1.current?.scrollIntoView({behavior: 'smooth'});
+    ref1.current?.scrollIntoView({behavior: 'smooth', block: 'center' });
   };
 
   const handleClickScrollMe = () => {
@@ -62,9 +65,14 @@ function App() {
     <div className="App">
 
 
+
       <div className="menubar"> 
         <div className='mininame'>
           my name
+        </div>
+
+        <div className="menuPic"> 
+        <img src={pic_brain} height="100px" alt="Brain Pic" />
         </div>
         
         <div className='menuinfo'>
@@ -133,8 +141,10 @@ function App() {
             </div>
 
             <div className='projectInfo'>
-              <div className='projBreakdown'> The goal was to create a website for futbol fans to use during the round of 16 to learn more about the countries that were playing. Features: filtering by country and/or language and sorting in alphabetical order. </div>
-              <div className='projScreenshot'> Screenshot</div>
+              <div className='projBreakdown'> The goal was to create a website for football fans to use during the round of 16 to learn more about the countries that were playing. Features: filtering by country and/or language and sorting in alphabetical order. </div>
+              <div className='projScreenshot'> 
+              <img src={pic_development} alt="Development Screenshot" width='600vw'/> 
+              </div>
             </div>
 
           </div>
