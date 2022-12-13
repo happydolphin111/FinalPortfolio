@@ -1,13 +1,12 @@
 
 import './App.css';
 import {useRef} from 'react';
-import pic_iterative from './components/images/iterative.png'
-import pic_responsive from './components/images/responsive.png'
-import pic_personas from './components/images/personas.png'
-import pic_development from './components/images/development.png'
-import pic_brain from './components/images/brain.png'
-import pic_heart from './components/images/myHeart.png'
-import Personas from './components/Personas';
+//import pic_iterative from 'assets/images/iterative.png'
+//import pic_responsive from './assets/images/responsive.png'
+//import pic_personas from 'assets/images/personas.png'
+//import pic_development from './assets/images/development.png'
+//import pic_brain from './assets/images/brain.png'
+//import pic_heart from './assets/images/myHeart.png'
 
 
 function App() {
@@ -72,7 +71,7 @@ function App() {
         </div>
 
         <div className="menuPic"> 
-        <img src={pic_brain} height="100px" alt="Brain Pic" />
+        <img src='assets/images/brain.png' height="100px" alt="Brain Pic" />
         </div>
         
         <div className='menuinfo'>
@@ -145,7 +144,7 @@ function App() {
             <div className='projectInfo'>
               <div className='projBreakdown'> The goal was to create a website for football fans to use during the round of 16 to learn more about the countries that were playing. Features: filtering by country and/or language and sorting in alphabetical order. </div>
               <div className='projScreenshot'> 
-              <img src={pic_development} alt="Development Screenshot" width='600vw'/> 
+              <img src="assets/images/development.png" alt="Development Screenshot" width='600vw'/> 
               </div>
             </div>
 
@@ -163,7 +162,7 @@ function App() {
 
           <div className='projectInfo'>
             <div className='projBreakdown'> After choosing the startup Jamble, we researched their objectives and designed an app for the user interface together with the user experience. </div>
-            <div className='projScreenshot'> <img src={pic_iterative} alt="Iterative Screenshot" width='300vw'/></div>
+            <div className='projScreenshot'> <img src="assets/images/iterative.png" alt="Iterative Screenshot" width='300vw'/></div>
           </div>
 
           </div>
@@ -183,7 +182,7 @@ function App() {
 
           <div className='projectInfo'>
             <div className='projBreakdown'> In this project, I chose a website who's interface was lacking some key components and proposed a new responsive design for it. </div>
-            <div className='projScreenshot'> <img src={pic_responsive} alt="Responsive Redesign Screenshot" width='500vw'/></div>
+            <div className='projScreenshot'> <img src='assets/images/responsive.png' alt="Responsive Redesign Screenshot" width='500vw'/></div>
           </div>
 
           </div>
@@ -201,7 +200,7 @@ function App() {
           <div className='projectInfo'>
             <div className='projBreakdown'> Here I observed real users interact with a public interface (a pool table) and
             interviewing them about it. From there, using the information collected to build personas and storyboards.</div>
-            <div className='projScreenshot'> <img src={pic_personas} alt="Personas and Storyboarding Screenshot" width='400vw'/></div>
+            <div className='projScreenshot'> <img src='assets/images/personas.png' alt="Personas and Storyboarding Screenshot" width='400vw'/></div>
           </div>
 
           </div>
@@ -230,7 +229,7 @@ function App() {
       </div>
 
       <div className="personalChild2">
-      <img src={pic_heart} alt="Heart Picture" width='300vw'/>
+      <img src='assets/images/myHeart.png' alt="Heart Picture" width='300vw'/>
       </div>
 
 
