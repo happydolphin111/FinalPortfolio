@@ -1,3 +1,25 @@
 .test {
   color: red;
 }
+
+.Personas {
+  background-color: white;
+}
+
+.PageHeader {
+  text-align: center;
+  font-size: 7vw;
+  color: rgb(255, 31, 150);
+}
+
+.Description {
+  display: flex;
+  flex-direction: column;
+}
+
+.DescriptionHeader {
+  font-weight: 800;
+}
+
+.DescriptionText {
+}
