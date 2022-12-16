@@ -260,7 +260,8 @@ function App() {
           <div className="info">
             I am a sophomore at Brown University studying Computer Science and Cognitive Neuroscience. 
             I have recently discovered a passion for design as a way of approaching problem solving. </div>
-          <div className="info"> The intent with this portfolio is to bring you through my journey of exploring design thinking and desigining experiences for different types of users. Join me! </div>
+            <div className="info"> You will often find me asking the question "Why?" to further reflect on the objectives behind each project I work on. </div>
+          <div className="info"> The intent with this portfolio is to bring you through my journey of exploring design thinking and designing experiences for different types of users. Join me! </div>
       </div>
 
       <div className="personalChild2">
@@ -274,8 +275,8 @@ function App() {
         CONNECT WITH ME
       
       <div className="elementFooter">
-      <img src='assets/github.icon_png' alt="Github Icon" width='100vw'/>
-      <img src='assets/email_icon.png' alt="Email Icon" width='100vw'/>
+      <img src='assets/github_icon_png' alt="Github Icon" width='50vw'/>
+      <img src='assets/email_icon.png' alt="Email Icon" width='50vw'/>
       </div>
       <div className="elementFooter">
         Made With Love in Providence

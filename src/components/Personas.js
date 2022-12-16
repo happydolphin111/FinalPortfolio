@@ -53,32 +53,33 @@ const handleClickScroll = () => {
         <div className="PageHeader"> Personas and Storyboarding </div>
 
         <div className="Description">
+        <div className="DescriptionHeader"> What? </div>
+        <div className="DescriptionText"> Practice working with Personas to model potential users for an interface. </div>
+        </div>
+
+        <div className="Description">
         <div className="DescriptionHeader"> Why? </div>
-        <div className="DescriptionText"></div>
+        <div className="DescriptionText"> Users are the center of UI/UX design, making it essential to know how to study and conduct research to be informed on who you are designing for.</div>
         </div>
 
         <div className="Description">
         <div className="DescriptionHeader"> How? </div>
-        <div className="DescriptionText"></div>
+        <div className="DescriptionText"> This project consists on 4 different parts: 
+        Preparation, where all the background work of choosing the interface and crafting the questions for the interviews happen.
+        Recording observations, where I gather my conclusions after having observed users interact with my the pool table, as well as a recap of the interviews I conducted. 
+        Personas, where I built two persona maps for two different types of users for my interface.
+        Storyboards, where I drew two storyboards to represent how the users interact with the pool table interface.
         </div>
+        </div>
+        
+        <div className="DescriptionHeader"> Take A Look: </div>
+        // Embedded Page
 
-        <div className="Description">
-        <div className="DescriptionHeader"> What? </div>
-        <div className="DescriptionText"></div>
-        </div>
 
         <div className="Description">
         <div className="DescriptionHeader"> My Take On It </div>
         <div className="DescriptionText"></div>
         </div>
-
-        // Section with reflection of what Ilearnt by doing the assignment. 
-        <div className="Reflection"> hello </div>
-        
-
-        <div className="DescriptionHeader"> Take A Look: </div>
-        // Embedded Page
-
 
         </div>
     )
