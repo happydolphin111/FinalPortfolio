@@ -272,6 +272,14 @@ function App() {
 
       <div className="contact">
         CONNECT WITH ME
+      
+      <div className="elementFooter">
+      <img src='assets/github.icon_png' alt="Github Icon" width='100vw'/>
+      <img src='assets/email_icon.png' alt="Email Icon" width='100vw'/>
+      </div>
+      <div className="elementFooter">
+        Made With Love in Providence
+      </div>
       </div>
 
     </div>
