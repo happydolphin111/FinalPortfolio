@@ -166,7 +166,7 @@ function App() {
             </div>
 
             <div className='projectInfo'>
-              <div className='projBreakdown'> A website for football fans to use during the round of 16 to learn more about the countries that were playing by filtering by country and/or language and sorting in alphabetical order.
+              <div className='projBreakdown'> A website for football fans to use during the round of 16 to learn more about the countries that were playing by filtering country and/or language and sorting in alphabetical order.
               <button className="Explore" onClick={NavigateDevelopment}>EXPLORE MORE </button>
                </div>
               <div className='projScreenshot'> 
@@ -186,7 +186,7 @@ function App() {
           </div>
 
           <div className='projectInfo'>
-            <div className='projBreakdown'> After choosing the startup Jamble, we researched their objectives and designed an app for the user interface together with the user experience. 
+            <div className='projBreakdown'> Designed an application for JAMBLE, an emerging startup focused on sustainable practices related to clothing. this application works as a social media for selling and buying second hand clothes.
             <button className="Explore" onClick={NavigateJamble}>EXPLORE MORE </button></div>
             <div className='projScreenshot'> <img src="assets/images/iterative.png" alt="Iterative Screenshot" width='300vw'/></div>
           </div>
@@ -207,7 +207,7 @@ function App() {
           </div>
 
           <div className='projectInfo'>
-            <div className='projBreakdown'> In this project, I chose a website who's interface was lacking some key components and proposed a new responsive design for it. 
+            <div className='projBreakdown'> Diagnostico Maipu's online interface was lacking some key components for the user's experience, so I proposed a new responsive design for it. 
             <button className="Explore" onClick={NavigateResponsive}>EXPLORE MORE </button></div>
             <div className='projScreenshot'> <img src='assets/images/responsive.png' alt="Responsive Redesign Screenshot" width='500vw'/></div>
           </div>
@@ -227,8 +227,8 @@ function App() {
           </div>
 
           <div className='projectInfo'>
-            <div className='projBreakdown'> Here I observed real users interact with a public interface (a pool table) and
-            interviewing them about it. From there, using the information collected to build personas and storyboards.
+            <div className='projBreakdown'> I observed real users interact with a public interface (a pool table) and
+            interviewing them about it. From there, used the information collected to build personas and storyboards.
             <button className="Explore" onClick={NavigatePersonas}>EXPLORE MORE </button></div>
             <div className='projScreenshot'> <img src='assets/images/personas.png' alt="Personas and Storyboarding Screenshot" width='400vw'/></div>
           </div>
