@@ -1,4 +1,4 @@
-import './Personas.css';
+import './Pages.css';
 
 
 
@@ -16,7 +16,8 @@ function changeOut(e) {
 }
 
 // Change gto go back to home screen
-const handleClickScroll = () => {
+const navigateHome = () => {
+    // Add
   };
 
 
@@ -24,9 +25,6 @@ const handleClickScroll = () => {
 
         <div className="Personas">
 
-        // same nav bar
-            // button to go back
-            // dropdown menu w/ other projects
 
         <div className="menubar"> 
         <div className='mininame'>
@@ -40,7 +38,7 @@ const handleClickScroll = () => {
         <div className='menuinfo'>
 
         <button className="ProjButton" 
-        onClick={handleClickScroll} 
+        onClick={navigateHome} 
         onMouseOver={changeIn}
         onMouseLeave={changeOut}>
           HOME 
@@ -78,7 +76,8 @@ const handleClickScroll = () => {
 
         <div className="Description">
         <div className="DescriptionHeader"> My Take On It </div>
-        <div className="DescriptionText"></div>
+        <div className="DescriptionText"> After completing this project I can confidently say I learnt a lot of what goes behind the initial user research 
+        for a particular interface, including what questions to ask to potential users as well as creating hypothetical models of different qualities users can have and how that shapes the way they interact with the interface. </div>
         </div>
 
         </div>

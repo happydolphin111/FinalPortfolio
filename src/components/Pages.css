@@ -23,3 +23,8 @@
 
 .DescriptionText {
 }
+
+.responsiveEvidence {
+  display: flex;
+  flex-direction: row;
+}
