@@ -188,6 +188,8 @@
   flex-direction: column;
   padding: 2vw;
   justify-content: space-evenly;
+  font-size: 1.2vw;
+  font-weight: 500;
 }
 
 .projScreenshot {
@@ -282,4 +284,10 @@
   color: white;
   text-decoration: underline;
   margin-bottom: 3vw;
+}
+
+a {
+  color: white;
+  text-transform: lowercase;
+  font-weight: 500;
 }
