@@ -77,7 +77,7 @@ function App() {
   return (
     <div className="App">
 
-      <div className="menubar"> 
+      <div className="menubar" ref={ref3}> 
         <div className='mininame'>
           my name
         </div>
