@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-image: linear-gradient(white, rgba(255, 31, 151, 0.09));
+  background-image: linear-gradient(white, white, rgba(255, 31, 151, 0.09));
 }
 
 .App-logo {
@@ -202,6 +202,7 @@
   text-align: left;
   padding-right: 5vw;
   font-weight: 500;
+  font-size: 1.4vw;
 }
 
 .personalInfo {

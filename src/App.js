@@ -120,7 +120,7 @@ function App() {
       <span> design.</span>
       </div>
 
-      <div className="down-arrow" onClick={handleClickScrollProjects}></div>
+      <div className="down-arrow" onClick={handleClickScrollMe}></div>
 
     </div>
 
@@ -306,12 +306,14 @@ function App() {
         for a particular interface, including what questions to ask to potential users as well as creating hypothetical models of different qualities users can have and how that shapes the way they interact with the interface. </div>
         </div>
         
+
         <div className="DescriptionHeader"> Take A Look: </div>
-        <iframe src="https://happydolphin111.github.io/PersonasAndStoryboarding/" width='1000vw' height='700vw'  ></iframe>
-        
         <div className='footerPage'> 
         <a href='https://happydolphin111.github.io/PersonasAndStoryboarding/'> View the whole page! </a>
        </div>
+        <iframe src="https://happydolphin111.github.io/PersonasAndStoryboarding/" width='1000vw' height='700vw'  ></iframe>
+        
+       
 
        
 
@@ -370,6 +372,9 @@ function App() {
             </div>
             
             <div className="DescriptionHeader"> Take A Look: </div>
+            <div className='footerPage'> 
+      <a href='https://happydolphin111.github.io/-ResponsiveRedesign/'> View the whole page! </a>
+    </div>
             <iframe src="https://happydolphin111.github.io/-ResponsiveRedesign/" width='1200vw' height='700vw'  ></iframe>
     
     
@@ -382,15 +387,13 @@ function App() {
             </div>
             
             <div className="responsiveEvidence">
-            <img src='assets/images/responsive.png' alt="Github Icon" width='300vw'/>
-            <h2> VS. </h2>
-            <img src='assets/images/newMaipu.png' alt="Email Icon" width='300vw'/>
+            <img src='assets/images/responsive.png' alt=" Original" width='500vw'/>
+            <div className="vs"> VS. </div>
+            <img src='assets/images/newMaipu.png' alt=" Theirs" width='500vw'/>
             </div>
             <a href="https://www.diagnosticomaipu.com">Link to new page!</a>
     
-            <div className='footerPage'> 
-      <a href='https://happydolphin111.github.io/-ResponsiveRedesign/'> View the whole page! </a>
-    </div>
+            
 
             </div>
 
@@ -449,13 +452,14 @@ function App() {
             </div>
 
             <div className="DescriptionHeader"> Take A Look: </div>
-            <iframe src="https://cs1300-iterative-design-7ne.pages.dev" width='1000vw' height='700vw'  ></iframe>
-    
-
             <div className='footerPage'> 
       <a href='https://cs1300-iterative-design-7ne.pages.dev'> View the whole page! </a>
     </div>
             
+            <iframe src="https://cs1300-iterative-design-7ne.pages.dev" width='1000vw' height='700vw'  ></iframe>
+    
+
+         
     
             </div>
 
@@ -506,12 +510,13 @@ function App() {
     </div>
     
     <div className="DescriptionHeader"> Take A Look: </div>
-    <iframe src="https://happydolphin111.github.io/DevelopmentReact/" width='100%' height='600vw' ></iframe>
-
-
     <div className='footerPage'> 
       <a href='https://happydolphin111.github.io/DevelopmentReact/'> View the whole page! </a>
     </div>
+
+    <iframe src="https://happydolphin111.github.io/DevelopmentReact/" width='100%' height='600vw' ></iframe>
+
+
 
     </div>
 
