@@ -1,17 +1,6 @@
 import './App.css';
-import './components/Pages.css';
+import './Pages.css';
 import {useRef} from 'react';
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  Link,
-  HashRouter,
-  useNavigate
-} from 'react-router-dom';
-import {Personas} from './components/Personas';
-import  Development  from './components/development';
-
 
 
 function App() {
@@ -203,7 +192,6 @@ function App() {
 
           <div className='cardTitle'>
             <div className='projectTitle'> Iterative Design </div>
-            <div className='bigNumber'> 3 </div>
           </div>
 
           <div className='projectInfo'>
@@ -226,7 +214,6 @@ function App() {
 
           <div className='cardTitle'>
             <div className='projectTitle'> Responsive Redesign </div>
-            <div className='bigNumber'> 2 </div>
           </div>
 
           <div className='projectInfo'>
@@ -246,7 +233,6 @@ function App() {
 
           <div className='cardTitle'>
             <div className='projectTitle'> Personas and Storyboarding  </div>
-            <div className='bigNumber'> 1 </div>
           </div>
 
           <div className='projectInfo'>
@@ -323,7 +309,9 @@ function App() {
         <div className="DescriptionHeader"> Take A Look: </div>
         <iframe src="https://happydolphin111.github.io/PersonasAndStoryboarding/" width='1000vw' height='700vw'  ></iframe>
         
-
+        <div className='footerPage'> 
+        <a href='https://happydolphin111.github.io/PersonasAndStoryboarding/'> View the whole page! </a>
+       </div>
 
        
 
@@ -394,13 +382,18 @@ function App() {
             </div>
             
             <div className="responsiveEvidence">
-            <img src='assets/images/responsive.png' alt="Github Icon" width='30vw'/>
+            <img src='assets/images/responsive.png' alt="Github Icon" width='300vw'/>
             <h2> VS. </h2>
-            <img src='assets/images/newMaipu.png' alt="Email Icon" width='30vw'/>
+            <img src='assets/images/newMaipu.png' alt="Email Icon" width='300vw'/>
             </div>
             <a href="https://www.diagnosticomaipu.com">Link to new page!</a>
     
+            <div className='footerPage'> 
+      <a href='https://happydolphin111.github.io/-ResponsiveRedesign/'> View the whole page! </a>
+    </div>
+
             </div>
+
 
 
             <div className="Personas" ref={jamble}>
@@ -458,7 +451,10 @@ function App() {
             <div className="DescriptionHeader"> Take A Look: </div>
             <iframe src="https://cs1300-iterative-design-7ne.pages.dev" width='1000vw' height='700vw'  ></iframe>
     
-    
+
+            <div className='footerPage'> 
+      <a href='https://cs1300-iterative-design-7ne.pages.dev'> View the whole page! </a>
+    </div>
             
     
             </div>
@@ -512,6 +508,10 @@ function App() {
     <div className="DescriptionHeader"> Take A Look: </div>
     <iframe src="https://happydolphin111.github.io/DevelopmentReact/" width='100%' height='600vw' ></iframe>
 
+
+    <div className='footerPage'> 
+      <a href='https://happydolphin111.github.io/DevelopmentReact/'> View the whole page! </a>
+    </div>
 
     </div>
 

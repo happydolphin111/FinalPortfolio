@@ -8,6 +8,9 @@
   padding-top: 3vw;
   padding-bottom: 3vw;
   margin-bottom: 2vw;
+  border-width: 5px;
+  border-style: groove;
+  border-color: rgb(255, 31, 150);
 }
 
 .PageHeader {
@@ -30,7 +33,8 @@
   font-weight: 800;
   text-align: left;
   margin-left: 7vw;
-  font-size: 2.5vw;
+  font-size: 2vw;
+  padding-bottom: 1vw;
 }
 
 .DescriptionText {
@@ -43,7 +47,11 @@
 }
 
 .responsiveEvidence {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   text-align: center;
+  padding: 1.5vw;
 }
 
 /* My App */
@@ -120,4 +128,13 @@
 .menubar2 {
   flex-direction: row;
   align-items: center;
+}
+
+.footerPage {
+  text-align: center;
+  margin-top: 3vw;
+  padding-left: 2vw;
+  margin-bottom: 3vw;
+  background-color: rgb(188, 187, 187);
+  font-size: 2vw;
 }
