@@ -71,7 +71,7 @@ export default function Jamble() {
             </div>
             
             <div className="DescriptionHeader"> Take A Look: </div>
-            // Embedded Page
+            <iframe src="https://cs1300-iterative-design-7ne.pages.dev" width='1000vw' height='900vw'  ></iframe>
     
     
             <div className="Description">

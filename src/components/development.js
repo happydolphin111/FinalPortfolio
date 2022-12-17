@@ -1,7 +1,7 @@
 import './Pages.css';
 
 
-export default function Development() {
+function Development() {
 
     function changeIn(e) {
         e.target.style.background = 'rgb(224, 15, 127)';
@@ -66,7 +66,7 @@ export default function Development() {
             </div>
             
             <div className="DescriptionHeader"> Take A Look: </div>
-            // Embedded Page
+            <iframe src="https://happydolphin111.github.io/DevelopmentReact/" width='100%' height='600vw' ></iframe>
     
     
             <div className="Description">
@@ -77,3 +77,5 @@ export default function Development() {
             </div>
         )
     }
+
+export default Development

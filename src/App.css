@@ -1,11 +1,6 @@
 .App {
   text-align: center;
-  background-image: linear-gradient(
-    white,
-    white,
-    white,
-    rgba(255, 31, 151, 0.091)
-  );
+  background-image: linear-gradient(white, rgba(255, 31, 151, 0.09));
 }
 
 .App-logo {
@@ -146,7 +141,7 @@
   width: 50%;
 }
 
-.Personas {
+.PersonasCard {
   width: 50%;
 }
 

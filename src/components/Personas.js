@@ -1,5 +1,5 @@
 import './Pages.css';
-
+import { useNavigate } from 'react-router-dom';
 
 
 export default function PersonasFunc() {
@@ -15,14 +15,11 @@ function changeOut(e) {
     e.target.style.removeProperty('color');
 }
 
-// Change gto go back to home screen
-const navigateHome = () => {
-    // Add
-  };
+    const navigate = useNavigate();
 
 
     return (
-
+        
         <div className="Personas">
 
 
@@ -32,13 +29,13 @@ const navigateHome = () => {
         </div>
 
         <div className="menuPic"> 
-        <img src='assets/images/brain.png' height="100px" alt="Brain Pic" />
+        <img src='./brain.png' height="100px" alt="Brain Pic" />
         </div>
         
         <div className='menuinfo'>
 
         <button className="ProjButton" 
-        onClick={navigateHome} 
+        onClick={() => navigate('/home')} 
         onMouseOver={changeIn}
         onMouseLeave={changeOut}>
           HOME 
@@ -71,7 +68,8 @@ const navigateHome = () => {
         </div>
         
         <div className="DescriptionHeader"> Take A Look: </div>
-        // Embedded Page
+        <iframe src="https://happydolphin111.github.io/PersonasAndStoryboarding/" width='1000vw' height='900vw'  ></iframe>
+        
 
 
         <div className="Description">

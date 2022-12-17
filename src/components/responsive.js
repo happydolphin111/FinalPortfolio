@@ -69,8 +69,7 @@ export default function Responsive() {
             </div>
             
             <div className="DescriptionHeader"> Take A Look: </div>
-            // Embedded Page
-            // https://happydolphin111.github.io/-ResponsiveRedesign/
+            <iframe src="https://happydolphin111.github.io/-ResponsiveRedesign/" width='1000vw' height='900vw'  ></iframe>
     
     
             <div className="Description">
